@@ -22,6 +22,20 @@ const hasKids = true;
 
 // Null
 const aptNumber = null;
+const output = aptNumber;
+console.log(output, typeof output);
+
+// undefined
+let score;
+console.log(score, typeof score);
+
+// Symbol
+const id = Symbol('id');
+console.log(id);
+
+// BigInt
+const n = 90007199254740991n;
+console.log(n);
 
 //
 // Reference Types (Objects)
