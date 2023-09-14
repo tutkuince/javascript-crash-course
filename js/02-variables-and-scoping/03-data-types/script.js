@@ -44,6 +44,18 @@ console.log(n);
 // the variable is given a reference to that value.
 // Object literals, arrays and functions are all reference types
 
+// Array
+const numbers = [1, 2, 3, 4];
+// Object
+const person = {
+    name: "Tutku"
+};
+// functions
+function sayHello() {
+    console.log("Hello");
+}
+
+
 //
 // Static Typing vs Dynamic Types
 //
