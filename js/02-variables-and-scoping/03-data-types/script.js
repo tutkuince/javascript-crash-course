@@ -9,6 +9,20 @@
 // Symbol - Built-in object whose constructor returns a unique symbol
 // BigInt - Numbers that are greater than the "Number" type can handle
 
+// String
+const firstName = 'Sara';
+console.log(firstName, typeof firstName);
+
+// Number
+const age = 30;
+const temp = 9.8;
+
+// Boolean
+const hasKids = true;
+
+// Null
+const aptNumber = null;
+
 //
 // Reference Types (Objects)
 //
@@ -24,3 +38,5 @@
 //
 // TypeScript is a superset of JavaScript, which allows static-typing. This can make your code more verbose and less prone to errors.
 // TypeScript may be something you want to look into later on.
+
+
